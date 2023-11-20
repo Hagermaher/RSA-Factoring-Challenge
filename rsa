@@ -18,7 +18,7 @@ def fc():
                         continue
                 w = 3
                 while w < revnumber // 2:
-                    if revnumber % i == 0:
+                    if revnumber % w == 0:
                         print("{}={}*{}".format(revnumber, revnumber // w, w))
                         break
                     w = w + 2
